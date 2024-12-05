@@ -1,6 +1,75 @@
-h1 {
-  font-family: Poppins;
+body {
+  font-family: Poppins, sans-serif;
+  background-color: rgba(39, 32, 68, 1);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("../images/athens-view.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+
+header h1 {
   font-size: 96px;
   font-weight: 700;
-  line-height: 144px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+header a {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-decoration: none;
+  background-color: white;
+  color: rgba(39, 32, 68, 1);
+  padding: 16px 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 32px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  header a {
+    font-size: 12px;
+  }
 }
