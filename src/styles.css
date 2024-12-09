@@ -56,7 +56,6 @@ header a {
 
 main {
   background-color: white;
-  padding: 100px 90px;
 }
 
 .grid {
@@ -66,6 +65,7 @@ main {
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+  padding: 100px 90px;
 }
 
 .img-responsive {
@@ -96,6 +96,70 @@ main a {
 main p {
   color: rgba(39, 32, 68, 0.7);
   margin: 10px;
+}
+.cards {
+  background: rgba(248, 248, 248, 1);
+}
+
+.grid-3-columns {
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px 70px 100px;
+}
+
+.grid-3-columns div {
+  background: white;
+}
+
+.cards h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.cards h3 {
+  padding-top: 100px;
+}
+
+.cards h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: rgba(39, 32, 68, 1);
+  padding: 0px 32px;
+}
+
+.cards h5 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19.5px;
+  color: rgba(39, 32, 68, 1);
+  padding: 0px 32px;
+}
+
+.cards p {
+  margin-left: 0;
+  padding: 0px 32px;
+}
+
+.cafe-btn {
+  margin: 24px 32px;
+}
+
+.btn {
+  padding: 16px 95.5px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: white;
+  background-color: #182013;
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
 }
 
 footer {
