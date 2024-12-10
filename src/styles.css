@@ -69,7 +69,7 @@ main {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 
 main h3 {
@@ -98,7 +98,16 @@ main p {
   margin: 10px;
 }
 .cards {
-  background: rgba(248, 248, 248, 1);
+  background: red;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .grid-3-columns {
@@ -109,6 +118,10 @@ main p {
 
 .grid-3-columns div {
   background: white;
+}
+
+.card-header.grid-2-columns {
+  padding: 0;
 }
 
 .cards h2 {
@@ -142,12 +155,12 @@ main p {
   padding: 0px 32px;
 }
 
-.cafe-btn {
-  margin: 24px 32px;
+.card-footer {
+  margin: 40px 32px;
 }
 
 .btn {
-  padding: 16px 95.5px;
+  padding: 16px 110px;
   font-size: 14px;
   font-weight: 700;
   line-height: 21px;
@@ -160,6 +173,10 @@ main p {
 
 .text-center {
   text-align: center;
+}
+
+.instagram-gallery {
+  margin: 100px 0;
 }
 
 footer {
