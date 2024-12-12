@@ -68,6 +68,10 @@ main {
   padding: 100px 90px;
 }
 
+.grid-2-columns img {
+  filter: brightness(109%) contrast(75%) saturate(90%);
+}
+
 .img-responsive {
   width: 100%;
 }
